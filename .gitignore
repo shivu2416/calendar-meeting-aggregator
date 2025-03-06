@@ -1,0 +1,34 @@
+# Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment variables
+.env
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Migrations (optional: if you want to ignore compiled migrations)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Node modules (if using frontend)
+node_modules/
+
+# macOS/Linux system files
+.DS_Store
+*.bak
