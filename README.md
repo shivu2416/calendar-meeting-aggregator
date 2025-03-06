@@ -76,22 +76,26 @@ docker run -p 8000:8000 meeting-aggregator
   "is_outlook": true,
   "is_google": true
 }
+```
+
 
 #### Fetch only Outlook meetings for a date range
-
+```json
 {
   "outlook_token": "your_outlook_token",
   "is_outlook": true,
   "start_date": "2025-03-01T00:00:00Z",
   "end_date": "2025-03-05T23:59:59Z"
 }
+```
 #### Fetch only Google meetings
+```json
 
 {
   "google_token": "your_google_token",
   "is_google": true
 }
-
+```
 
 ## Assumptions
 - The database setup is already completed.
