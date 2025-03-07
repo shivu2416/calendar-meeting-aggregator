@@ -47,7 +47,7 @@ python meeting_config/manage.py runserver 0.0.0.0:8000
 ### 4. Run with Docker
 ```sh
 docker build -t meeting-aggregator .
-docker run -p 8000:8000 meeting-aggregator
+docker run -p 8002:8002 meeting-aggregator
 ```
 
 ## API Usage
