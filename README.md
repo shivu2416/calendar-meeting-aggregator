@@ -30,7 +30,7 @@ meeting_aggregator/
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-repo/meeting-aggregator.git
+git clone https://github.com/shivu2416/calendar-meeting-aggregator.git
 cd meeting-aggregator
 ```
 
